@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This website is about front-end developer Kristina Pajėdienė and her first apps"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -21,7 +25,9 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="index.html">Kristina Pajėdienė</a>
+        <a class="navbar-brand ms-5" href="index.html" title="Home"
+          >Kristina Pajėdienė</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -36,19 +42,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="about.html" title="About Kristina"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Contact Kristina"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <div class="hero">
       <h1>About me</h1>
       <h3>Front-end developer from Kaunas, Lithuania</h3>
@@ -64,18 +82,24 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid rounded shadow-sm p-2" />
+          <img
+            src="images/yoga.png"
+            class="img-fluid rounded shadow-sm p-2"
+            alt="Yoga app"
+          />
         </div>
         <div class="col-sm-4">
           <img
             src="images/weather.png"
             class="img-fluid rounded shadow-sm p-2"
+            alt="Weather app"
           />
         </div>
         <div class="col-sm-4">
           <img
             src="images/yogurt.png"
             class="img-fluid rounded shadow-sm p-2"
+            alt="Yoga app"
           />
         </div>
       </div>
@@ -83,7 +107,7 @@
 
     <div id="contact">
       <h2>📮 Contact me</h2>
-      <a href="mailto:nork.kristina@gmail.com" class="email-link">
+      <a href="mailto:nork.kristina@gmail.com" class="email-link" title="email">
         nork.kristina@gmail.com
       </a>
     </div>
