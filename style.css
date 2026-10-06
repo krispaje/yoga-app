@@ -118,3 +118,28 @@ p {
   text-align: center;
   font-size: larger;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .app-name {
+    font-size: 38px;
+    text-align: center;
+  }
+  .summary-text {
+    text-align: center;
+  }
+  .launch-links {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
